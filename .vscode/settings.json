@@ -1,5 +1,21 @@
 {
   "files.associations": {
     "api-extractor*.json": "jsonc"
-  }
+  },
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#252f2a",
+    "titleBar.activeBackground": "#0f1311",
+    "titleBar.activeForeground": "#e7e7e7",
+    "activityBar.activeBackground": "#252f2a",
+    "activityBar.activeBorder": "#7f40bf",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#7f40bf",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#252f2a",
+    "titleBar.inactiveBackground": "#0f131199",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "window.title": "${activeEditorLong}${separator}${rootName} ${separator} [Branch: master]",
+  "peacock.color": "#0f1311"
 }
