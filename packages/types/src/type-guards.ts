@@ -30,7 +30,7 @@ export function isTypedArray<T>(
  * isTeam(team); // true
  * ```
  */
-export function isTeam(arg: any): arg is ITeam {
+export function isTeam(arg: unknown): arg is ITeam {
   return (
     typeof arg.name === "string" &&
     typeof arg.id === "string" &&
@@ -43,7 +43,7 @@ export function isTeam(arg: any): arg is ITeam {
  * @param arg - value to check
  * @beta
  */
-export function isChannel(arg: any): arg is IChannel {
+export function isChannel(arg: unknown): arg is IChannel {
   return (
     typeof arg.id === "string" &&
     typeof arg.teamId === "string" &&
@@ -57,7 +57,7 @@ export function isChannel(arg: any): arg is IChannel {
  * @param arg - value to check
  * @beta
  */
-export function isMessage(arg: any): arg is IMessage {
+export function isMessage(arg: unknown): arg is IMessage {
   return (
     typeof arg.teamId === "string" &&
     typeof arg.channelId === "string" &&

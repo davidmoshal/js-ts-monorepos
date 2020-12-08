@@ -116,4 +116,7 @@ dist
 .pnp.*
 **/temp
 **/temp-*
-_config.yml
+_config.yml.idea
+
+.idea
+
