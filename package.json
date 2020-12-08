@@ -20,9 +20,10 @@
     "path": "./scripts/workspace"
   },
   "scripts": {
-    "build": "scripty",
     "clean": "scripty",
+    "build": "scripty",
     "lint": "scripty",
+    "publish": "scripty",
     "test": "scripty"
   },
   "devDependencies": {
