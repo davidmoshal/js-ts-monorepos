@@ -20,6 +20,7 @@
     "path": "./scripts/workspace"
   },
   "scripts": {
+    "api-docs": "scripty",
     "clean": "scripty",
     "build": "scripty",
     "lint": "scripty",
@@ -30,6 +31,7 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@commitlint/config-lerna-scopes": "^11.0.0",
+    "@microsoft/api-extractor": "^7.12.0",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
     "@typescript-eslint/parser": "^4.9.1",
     "commitlint": "^11.0.0",
