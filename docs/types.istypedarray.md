@@ -9,7 +9,7 @@ Check whether a given value is an array where each member is of a specified type
 <b>Signature:</b>
 
 ```typescript
-export declare function isTypedArray<T>(arr: unknown, check: (x: unknown) => x is T): arr is T[];
+export declare function isTypedArray<T>(arr: unknown, check: (x: any) => x is T): arr is T[];
 ```
 
 ## Parameters
@@ -17,7 +17,7 @@ export declare function isTypedArray<T>(arr: unknown, check: (x: unknown) => x i
 |  Parameter | Type | Description |
 |  --- | --- | --- |
 |  arr | unknown | array to check |
-|  check | (x: unknown) =&gt; x is T | type guard to use when evaluating each item |
+|  check | (x: any) =&gt; x is T | type guard to use when evaluating each item |
 
 <b>Returns:</b>
 

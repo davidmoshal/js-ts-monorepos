@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
 echo "┏━━━ 📚 API DOCS: Extracting API surface ━━━━━━━━━━━━━━"
 yarn clean
-yarn tsc -b packages
+
+# this seemed broken, changed to lerna run build
+# yarn tsc -b packages
+lerna run build --stream
+
 yarn lerna run api-report;
 echo "┏━━━ 📝 API DOCS: Generating Markdown Docs ━━━━━━━━━━━━"
 GH_PAGES_CFG_EXISTS=$(test -f docs/_config.yml)

@@ -34,3 +34,9 @@ All interfaces are prefixed with `I`
 |  [ITeam](./types.iteam.md) | A team, containing one or more chat channels |
 |  [IUser](./types.iuser.md) | A user participating in a chat |
 
+## Variables
+
+|  Variable | Description |
+|  --- | --- |
+|  [dummyb](./types.dummyb.md) |  |
+
